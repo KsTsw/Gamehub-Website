@@ -1,2 +1,3 @@
 # Gamehub-Website
-Website for schoolproject on HTML and CSS
+Gamehub Website for school project
+HTML and CSS in Visual Studio Code
