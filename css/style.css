@@ -1,0 +1,264 @@
+
+*{margin: 0;}
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.logo {
+    text-align: center;
+}
+.header { 
+    font-family: 'Aldrich', sans-serif;
+    
+}
+.nav_list {
+    width: 1710px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Aldrich',sans-serif;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    background-color: rgb(30, 30, 30);
+margin: auto;
+    
+}
+
+
+main{
+    background-image: url(/images/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    padding: 10px; 
+    
+    
+
+}
+
+h1 {
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 60px;
+    
+
+ }
+
+
+    
+    
+
+footer {
+    margin-top: 200px;
+    background-color: rgb(30, 30, 30);  
+    color: white;
+    font-family: 'Aldrich',sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+  
+
+}
+
+h2 {
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: right;
+    margin-top: 200px;
+    margin-left: 900px;
+    margin-right: 100px;
+    
+
+} 
+
+
+.logo2 {
+    position: absolute;
+    left: 95px;
+    top: 370px;
+height: 350px;
+text-align: left;
+}
+
+h3 {
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    margin-top: 300px;
+    margin-left: 900px;
+    margin-right: 100px;
+
+}
+
+h4 {
+    background-color: rgb(30, 30, 30);
+    width: 1575px;
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+   
+
+}
+
+.NewReleases {
+    text-align: center;
+
+
+}  
+
+.TodaysDeal {
+    background-image: url(/images/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    height: 440px;
+    padding: 10px;
+    position: absolute;
+    top: 1300px;
+    
+
+    
+
+}
+
+.PopularReleases {
+    background-image: url(/images/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 470px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.indiegames {
+    background-image: url(/images/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 470px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.footergames {
+    margin-top: 1750px;
+    background-color: rgb(30, 30, 30);  
+    color: white;
+    font-family: 'Aldrich',sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.product
+{
+    margin-left: 140px;
+    margin-top: 90px;
+    
+}
+
+h5 {
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    bottom: -51px;
+    margin-left: 600px;
+    margin-right: 300px;
+
+} 
+
+h6 {
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    background-image: url(/images/Rectangle\ 22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15%;
+    margin-left: 900px;
+}
+
+h7 {
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    left: 1350px; top: 800px;
+
+}
+
+.cart {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+p {
+    background-image: url(/images/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1725px;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    margin-left: -7px;
+    margin-top: 860px;
+}
+.cart2 {
+    text-align: center;
+    position: absolute;
+    left: 735px;
+    top: 920px;
+       
+
+}
+h8 {
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    right: -400px;
+
+}
+.logo3 {
+    position: absolute;
+    right: 1100px;
+    top: -340px;
+height: 350px;
+text-align: left;
+}
+
+.footercart {
+    background-color: rgb(30, 30, 30);  
+    color: white;
+    font-family: 'Aldrich',sans-serif;
+    font-size: 30px;
+    text-align: center;
+   position: absolute;
+   margin-top: 400px;
+   width: 100%;
+
