@@ -5,31 +5,65 @@
     box-sizing: border-box;
 }
 
+
+
+body {
+    background-image: url(/images/background1.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+          }
+
+
 .logo {
+    max-width: 100%;
     text-align: center;
+    
 }
+
 .header { 
+    display: flex;
+    max-width: 100%;
     font-family: 'Aldrich', sans-serif;
     
 }
+
+
 .nav_list {
-    width: 1710px;
     display: flex;
+    max-width: 100%;
+    padding: 30px;
     justify-content: space-between;
     font-family: 'Aldrich',sans-serif;
     font-size: 1.875rem;
     text-transform: uppercase;
     background-color: rgb(30, 30, 30);
-margin: auto;
+
+    
+}
+@media screen and (max-width: 758px) 
+{.nav_list {font-size: 16px;
+    overflow: hidden;
+    
+}
     
 }
 
+@media screen and (max-width: 758px) 
+{main {display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    
+}
+    
+}
 
 main{
-    background-image: url(/images/Rectangle\ 10.jpg);
-    background-repeat: no-repeat;
+    background-color: rgb(30, 30, 30);
     background-size: cover;
-    width: 90%;
+    width: 100%;
     margin: auto;
     height: 600px;
     padding: 10px; 
@@ -38,34 +72,87 @@ main{
 
 }
 
+
 h1 {
     font-family: 'Aldrich', sans-serif;
     color: white;
     font-size: 40px;
     text-align: center;
     
+    
 
 }
 
+@media screen and (max-width: 758px) 
+{.container 
+    {display: flex;
+flex-direction: row;
+padding: 10px;
+background-color: rgb(30, 30, 30);
+overflow: scroll;
+
+
+
+}
+    
+}
 
 .container {
+    background-color: rgb(30, 30, 30);
     text-align: center;
     margin-top: 60px;
     
-
  }
 
 
     
     
+ @media screen and (max-width: 758px) 
+ {footer 
+    {   display: flex;
+        color: white;
+        font-family: 'Aldrich',sans-serif;
+        text-align: center;
+        background-color: rgb(30, 30, 30);
+        position: relative;
+        
+       
+                
+        
+}
+     
+ }
+
+ @media screen and (max-width: 758px) 
+ {i.fa-facebook
+    {   font-size: 50px;
+}
+     
+ }
+ @media screen and (max-width: 758px) 
+ {i.fa-instagram
+    {   font-size: 50px;
+}
+     
+ }
+ @media screen and (max-width: 758px) 
+ {i.fa-twitter
+    {   font-size: 50px;
+}
+     
+ }
+
 
 footer {
+    
+    display: flex;
     margin-top: 200px;
     background-color: rgb(30, 30, 30);  
     color: white;
     font-family: 'Aldrich',sans-serif;
     font-size: 30px;
     text-align: center;
+
     
   
 
@@ -83,7 +170,18 @@ h2 {
 
 } 
 
+@media screen and (max-width: 758px) 
+{.logo2
+   {   display: flex;
+    flex-direction: column;
+    scale: 60%;
+   
+    
+    
+      
 
+      }
+    }
 .logo2 {
     position: absolute;
     left: 95px;
@@ -91,6 +189,10 @@ h2 {
 height: 350px;
 text-align: left;
 }
+
+
+
+
 
 h3 {
     font-family: 'Aldrich', sans-serif;
@@ -105,9 +207,11 @@ h3 {
 
 }
 
+
+
 h4 {
     background-color: rgb(30, 30, 30);
-    width: 1575px;
+    width: 100%;
     font-family: 'Aldrich', sans-serif;
     color: white;
     font-size: 35px;
@@ -116,11 +220,31 @@ h4 {
 
 }
 
+@media screen and (max-width: 758px) 
+{.NewReleases
+   {   display: flex;
+      flex-direction: row;
+      
+      
+       
+}
+    
+}
+
 .NewReleases {
     text-align: center;
 
 
 }  
+
+@media screen and (max-width: 758px) 
+{.TodaysDeal
+   {   display: flex;
+      flex-direction: row;
+      
+      
+      }
+    }
 
 .TodaysDeal {
     background-image: url(/images/Rectangle\ 10.jpg);
@@ -138,6 +262,16 @@ h4 {
 
 }
 
+@media screen and (max-width: 758px) 
+{.PopularReleases
+   {   display: flex;
+      flex-direction: row;
+      
+      
+
+      }
+    }
+
 .PopularReleases {
     background-image: url(/images/Rectangle\ 10.jpg);
     background-repeat: no-repeat;
@@ -148,6 +282,15 @@ h4 {
     text-align: center;
 
 }
+
+@media screen and (max-width: 758px) 
+{.indiegames
+   {   display: flex;
+      flex-direction: row;
+      max-width: 100%;
+
+      }
+    }
 
 .indiegames {
     background-image: url(/images/Rectangle\ 10.jpg);
@@ -160,6 +303,17 @@ h4 {
 
 }
 
+@media screen and (max-width: 758px) 
+{.footergames { display: flex;
+    color: white;
+    font-family: 'Aldrich',sans-serif;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    position: relative;
+    
+}
+    
+}
 .footergames {
     margin-top: 1750px;
     background-color: rgb(30, 30, 30);  
@@ -261,4 +415,5 @@ text-align: left;
    position: absolute;
    margin-top: 400px;
    width: 100%;
-
+ }
+ 
