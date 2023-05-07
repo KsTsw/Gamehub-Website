@@ -13,6 +13,7 @@ async function fetchData() {
     if (data == undefined) {
       element.innerHTML += `
         <div class="container"></div>`;
+        
     } else {
       data.forEach((game, index) => {
         if (index <= 4) {
@@ -20,7 +21,9 @@ async function fetchData() {
         <div class="product">
         <a href="gameinfo.html?id=${game.id}"><p>${game.title}</p>
       <img src = "${game.image}" class="product" alt="${game.description}"/></a>
+     
       </div>`;
+
         }
       });
     }
